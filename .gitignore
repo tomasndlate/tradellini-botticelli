@@ -1,0 +1,84 @@
+# -----------------
+# Go (Golang)
+# -----------------
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Go workspace file
+go.work
+
+# Go modules
+go.sum
+
+# -----------------
+# Gin (Handled by Go section)
+# -----------------
+
+# -----------------
+# Next.js
+# -----------------
+.next/
+out/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.env
+*.venv/
+.venv/
+.env/
+*.ipynb_checkpoints
+pip-wheel-metadata/
+*.db
+
+# -----------------
+# macOS
+# -----------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# -----------------
+# VSCode
+# -----------------
+.vscode/
+
+# -----------------
+# IntelliJ / JetBrains
+# -----------------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
